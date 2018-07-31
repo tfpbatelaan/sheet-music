@@ -20,12 +20,20 @@ global = {
 sopMusic = \relative {
   as'4 f des as'2 as4 bes (c) des des2 c4 | 
   des f, des as'2 as4 bes(c) des c2 des4 | 
-  f es des es2 as,4 as2 g4 as2.
+  f es des es2 as,4 as2 g4 as2. 
+   as4 as as as (bes) c des (bes) as as2 g4
+   as as as as (bes) c des (bes) as g2 as4
+   f' des des es2 as,4 des2 des8(c) c2. 
+
+
 }
 sopWords = \lyricmode { 
 Es ist nun aus mit mei -- nem Le -- ben, 
 Gott nimmt es hin, der es __ ge -- ge -- ben. 
 Kein Tröpf -- lein mehr ist in dem Fass, 
+es will kein Fünk -- lein mehr __ ver -- fan -- gen,
+des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
+Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
 
 
 }
@@ -34,13 +42,19 @@ Kein Tröpf -- lein mehr ist in dem Fass,
 altoMusic = \relative {
   des'4 des des es2 des4 des(es) des8(es) f2 f4 | 
   f des des es2 des4 des(c) bes es2 f4 | 
-  des es f des (c) c des2 des4 c2.
+  des es f es (c) c des2 des4 c2.
+  c4 des es des (c8 bes) as4 f'2 f4 f2 e4
+  f f geses f2 es4 des8 (es f4) f e2 f4
+  as as f es (c) c f (es) es es2.
 
 }
 altoWords = \lyricmode {
- Es ist nun aus mit mei -- nem Le -- ben, 
- Gott nimmt es hin, der es __ ge -- ge -- ben. 
- Kein Tröpf -- lein mehr ist in dem Fass, 
+Es ist nun aus mit mei -- nem Le -- ben, 
+Gott nimmtE es hin, der es __ ge -- ge -- ben. 
+Kein Tröpf -- lein mehr ist in dem Fass, 
+es will kein Fünk -- lein mehr __ ver -- fan -- gen,
+des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
+Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
 }
 
 tenorMusic = \relative {   \clef "G_8"
@@ -51,8 +65,11 @@ tenorMusic = \relative {   \clef "G_8"
 }
 tenorWords = \lyricmode { 
 Es ist nun aus mit mei -- nem Le -- ben, 
-Gott nimmt es hin, der es __ ge -- ge -- ben. 
+Gott nimmtE es hin, der es __ ge -- ge -- ben. 
 Kein Tröpf -- lein mehr ist in dem Fass, 
+es will kein Fünk -- lein mehr __ ver -- fan -- gen,
+des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
+Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
 
 }
 
@@ -116,5 +133,5 @@ Kein Tröpf -- lein mehr ist in dem Fass,
     >>
   >>
  \layout { }
- \midi {}    
+ \midi {    \tempo 4 = 81}    
 }
