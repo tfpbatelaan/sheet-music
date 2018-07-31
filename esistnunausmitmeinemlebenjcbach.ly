@@ -25,7 +25,7 @@ sopMusic = \relative {
 sopWords = \lyricmode { 
 Es ist nun aus mit mei -- nem Le -- ben, 
 Gott nimmt es hin, der es __ ge -- ge -- ben. 
-Kein TrÃÂ¶pf -- lein mehr ist in dem Fass, 
+Kein Tröpf -- lein mehr ist in dem Fass, 
 
 
 }
@@ -40,7 +40,7 @@ altoMusic = \relative {
 altoWords = \lyricmode {
  Es ist nun aus mit mei -- nem Le -- ben, 
  Gott nimmt es hin, der es __ ge -- ge -- ben. 
- Kein TrÃÂ¶pf -- lein mehr ist in dem Fass, 
+ Kein Tröpf -- lein mehr ist in dem Fass, 
 }
 
 tenorMusic = \relative {   \clef "G_8"
@@ -52,7 +52,7 @@ tenorMusic = \relative {   \clef "G_8"
 tenorWords = \lyricmode { 
 Es ist nun aus mit mei -- nem Le -- ben, 
 Gott nimmt es hin, der es __ ge -- ge -- ben. 
-Kein TrÃÂ¶pf -- lein mehr ist in dem Fass, 
+Kein Tröpf -- lein mehr ist in dem Fass, 
 
 }
 
@@ -64,7 +64,7 @@ bassMusic = \relative {   \clef bass
 bassWords = \lyricmode { 
 Es ist nun aus mit mei -- nem Le -- ben,
 Gott nimmt es hin, der es __ ge -- ge -- ben. 
-Kein TrÃÂ¶pf -- lein mehr ist in dem Fass, 
+Kein Tröpf -- lein mehr ist in dem Fass, 
 
 }
 
@@ -116,5 +116,5 @@ Kein TrÃÂ¶pf -- lein mehr ist in dem Fass,
     >>
   >>
  \layout { }
-  \midi {}      
+ \midi {}    
 }
