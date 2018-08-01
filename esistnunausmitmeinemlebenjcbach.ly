@@ -6,6 +6,8 @@
   last-bottom-spacing.basic-distance = #10
 }
 
+#(set-global-staff-size 15.0)
+
 \header {
   title = "Es ist nun aus mit meinem Leben"
   meter = "Performing Edition"
