@@ -16,10 +16,10 @@
 
 global = {
   \key des \major
-  \time 3/2
+  \time 3/4
 }
 
-sopMusic = \relative {
+sopMusic = \shiftDurations #1 #0 \relative {
   as'2 f des as'1 as2 bes (c) des des1 c2 | 
   des f, des as'1 as2 bes(c) des c1\trill des2\fermata | 
   f es des es1 as,2 as1\trill g2 as1. 
@@ -47,7 +47,7 @@ Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
 }
 
 
-altoMusic = \relative {
+altoMusic = \shiftDurations #1 #0 \relative {
   des'2 des des es1 des2 des(es) des4(es) f1 f2 | 
   f des des es1 des2 des(c) bes es1 f2 | 
   des es f es (c) c des1 des2 c1.
@@ -70,7 +70,7 @@ Welt gu -- te Nacht, Welt, gu -- te Nacht,
 Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
 }
 
-tenorMusic = \relative {   \clef "G_8"
+tenorMusic = \shiftDurations #1 #0 \relative {   \clef "G_8"
   f2 as f es (f4 ges)  f2 f (g4 a)  bes2 bes1 a2 | 
   as as f es(f4 ges) f2 ges1 f2 as1 as2 | 
   as as as as1 as2 bes1 bes4 (es,) es1.
@@ -93,7 +93,7 @@ Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
 
 }
 
-bassMusic = \relative {   \clef bass
+bassMusic = \shiftDurations #1 #0 \relative {   \clef bass
   des2 des des des(c) des des(c) bes f'(f,) f' | 
   des des des des(c) des ges,(as) bes as1 des2 | 
   des c bes c (f) f bes, (es) es as,1.
@@ -164,6 +164,6 @@ Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
     >>
   >>
  \layout { }
- \midi {    \tempo 2 = 81}    
+ \midi {    \tempo 4 = 81}    
 }
 
