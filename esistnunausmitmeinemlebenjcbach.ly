@@ -1,12 +1,12 @@
 
 \paper {
   top-system-spacing.basic-distance = #10
-  score-system-spacing.basic-distance = #20
+  score-system-spacing.basic-distance = #10
   system-system-spacing.basic-distance = #10
   last-bottom-spacing.basic-distance = #10
 }
 
-#(set-global-staff-size 15.0)
+#(set-global-staff-size 14.0)
 
 \header {
   title = "Es ist nun aus mit meinem Leben"
