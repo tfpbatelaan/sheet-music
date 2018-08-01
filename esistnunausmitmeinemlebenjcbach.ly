@@ -14,18 +14,18 @@
 
 global = {
   \key des \major
-  \time 3/4
+  \time 3/2
 }
 
 sopMusic = \relative {
-  as'4 f des as'2 as4 bes (c) des des2 c4 | 
-  des f, des as'2 as4 bes(c) des c2 des4 | 
-  f es des es2 as,4 as2 g4 as2. 
-   as4 as as as (bes) c des (bes) as as2 g4
-   as as as as (bes) c des (bes) as g2 f4
-   f' des des es2 as,4 des2 des8(c) c2. 
-   des4 c bes a2 bes4 c (f,) f f2.
-   f4 des'4. c8 c2.
+  as'2 f des as'1 as2 bes (c) des des1 c2 | 
+  des f, des as'1 as2 bes(c) des c1 des2 | 
+  f es des es1 as,2 as1 g2 as1. 
+   as2 as as as (bes) c des (bes) as as1 g2
+   as as as as (bes) c des (bes) as g1 f2
+   f' des des es1 as,2 des1 des4(c) c1. 
+   des2 c bes a1 bes2 c (f,) f f1.
+   f2 des'2. c4 c1.
 
 }
 sopWords = \lyricmode { 
@@ -43,12 +43,12 @@ Welt gu -- te Nacht, Welt, gu -- te Nacht
 
 
 altoMusic = \relative {
-  des'4 des des es2 des4 des(es) des8(es) f2 f4 | 
-  f des des es2 des4 des(c) bes es2 f4 | 
-  des es f es (c) c des2 des4 c2.
-  c4 des es des (c8 bes) as4 f'2 f4 f2 e4
-  f f geses f2 es4 des8 (es f4) f e2 f4
-  as as f es (c) c f (es) es es2.
+  des'2 des des es1 des2 des(es) des4(es) f1 f2 | 
+  f des des es1 des2 des(c) bes es1 f2 | 
+  des es f es (c) c des1 des2 c1.
+  c2 des es des (c4 bes) as2 f'1 f2 f1 e2
+  f f geses f1 es2 des4 (es f2) f e1 f2
+  as as f es (c) c f (es) es es1.
 
 }
 altoWords = \lyricmode {
@@ -60,13 +60,13 @@ des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
 Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
 }
 
-tenorMusic = \relative {   \clef "G_8"
-  f4 as f es (f8 ges)  f4 f (g8 a)  bes4 bes2 a4 | 
-  as as f es(f8 ges) f4 ges2 f4 as2 as4 | 
-  as as as as2 as4 bes2 bes8 (es,) es2.
-  es4 es es f (g) as bes8 (c des4) c c2 c4 
-  c c c des f,8 (g as4) bes8 (c des4) c c2 a4
-  des as as as2 as4 as2 g4 as2.
+tenorMusic = \relative {   \clef "G_4"
+  f2 as f es (f4 ges)  f2 f (g4 a)  bes2 bes1 a2 | 
+  as as f es(f4 ges) f2 ges1 f2 as1 as2 | 
+  as as as as1 as2 bes1 bes4 (es,) es1.
+  es2 es es f (g) as bes4 (c des2) c c1 c2 
+  c c c des f,4 (g as2) bes4 (c des2) c c1 a2
+  des as as as1 as2 as1 g2 as1.
 
 }
 tenorWords = \lyricmode { 
@@ -80,12 +80,12 @@ Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
 }
 
 bassMusic = \relative {   \clef bass
-  des4 des des des(c) des des(c) bes f'(f,) f' | 
-  des des des des(c) des ges,(as) bes as2 des4 | 
-  des c bes c (f) f bes, (es) es as,2.
-  as4 bes c des2 c4 bes2 f'4 c2 
-  c4f, f' es des2 c4 bes2 f'4 c2 f,4
-  des' f des c (f) f bes, (es) es, as2.
+  des2 des des des(c) des des(c) bes f'(f,) f' | 
+  des des des des(c) des ges,(as) bes as1 des2 | 
+  des c bes c (f) f bes, (es) es as,1.
+  as2 bes c des1 c2 bes1 f'2 c1 
+  c2f, f' es des1 c2 bes1 f'2 c1 f,2
+  des' f des c (f) f bes, (es) es, as1.
 
 }
 bassWords = \lyricmode { 
@@ -146,5 +146,5 @@ Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
     >>
   >>
  \layout { }
- \midi {    \tempo 4 = 81}    
+ \midi {    \tempo 2 = 41}    
 }
