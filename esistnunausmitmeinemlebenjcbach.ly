@@ -24,7 +24,8 @@ sopMusic = \relative {
    as4 as as as (bes) c des (bes) as as2 g4
    as as as as (bes) c des (bes) as g2 f4
    f' des des es2 as,4 des2 des8(c) c2. 
-
+   des4 c bes a2 bes4 c (f,) f f2.
+   f4 des'4. c8 c2.
 
 }
 sopWords = \lyricmode { 
@@ -34,6 +35,8 @@ Kein Tröpf -- lein mehr ist in dem Fass,
 es will kein Fünk -- lein mehr __ ver -- fan -- gen,
 des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
 Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
+es ist nun aus, est ist voll -- bracht,
+Welt gu -- te Nacht, Welt, gu -- te Nacht
 
 
 }
@@ -50,7 +53,7 @@ altoMusic = \relative {
 }
 altoWords = \lyricmode {
 Es ist nun aus mit mei -- nem Le -- ben, 
-Gott nimmtE es hin, der es __ ge -- ge -- ben. 
+Gott nimmt es hin, der es __ ge -- ge -- ben. 
 Kein Tröpf -- lein mehr ist in dem Fass, 
 es will kein Fünk -- lein mehr __ ver -- fan -- gen,
 des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
@@ -68,7 +71,7 @@ tenorMusic = \relative {   \clef "G_8"
 }
 tenorWords = \lyricmode { 
 Es ist nun aus mit mei -- nem Le -- ben, 
-Gott nimmtE es hin, der es __ ge -- ge -- ben. 
+Gott nimmt es hin, der es __ ge -- ge -- ben. 
 Kein Tröpf -- lein mehr ist in dem Fass, 
 es will kein Fünk -- lein mehr __ ver -- fan -- gen,
 des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
@@ -87,7 +90,7 @@ bassMusic = \relative {   \clef bass
 }
 bassWords = \lyricmode { 
 Es ist nun aus mit mei -- nem Le -- ben, 
-Gott nimmtE es hin, der es __ ge -- ge -- ben. 
+Gott nimmt es hin, der es __ ge -- ge -- ben. 
 Kein Tröpf -- lein mehr ist in dem Fass, 
 es will kein Fünk -- lein mehr __ ver -- fan -- gen,
 des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
