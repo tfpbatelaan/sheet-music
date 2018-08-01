@@ -69,13 +69,13 @@ altoMusic = \transpose des d
 }
 }
 altoWords = \lyricmode {
-Es ist nun aus mit mei -- nem Le -- ben, 
-Gott nimmt es hin, der es __ ge -- ge -- ben. 
-Kein Tröpf -- lein mehr ist in dem Fass, 
-es will kein Fünk -- lein mehr __ ver -- fan -- gen,
-des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
-Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
-es ist nun aus, es ist voll -- bracht,
+Komm, To -- des -- tag, du Le -- bens -- son -- ne,
+du brin -- gest mir mehr Lust und Won -- ne,
+als mein Ge -- burts -- tag brin -- gen kann,
+du machst ein En -- de mei -- nem Lei -- den,
+das sich schon mit den Kind -- taufs -- freu -- den
+vor je -- nen hat ge -- fan -- gen an,
+nun ist es aus, es ist voll -- bracht,
 Welt gu -- te Nacht, Welt, gu -- te Nacht,
 Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
 
