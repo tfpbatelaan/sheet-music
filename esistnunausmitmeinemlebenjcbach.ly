@@ -8,8 +8,10 @@
 
 \header {
   title = "Es ist nun aus mit meinem Leben"
-  composer = "Johann Christoph Bach"
+  meter = "Urtext"
+  composer = "Johann Christoph Bach (1642 – 1703)"
   poet = "Magnus Daniel Omeis (1673)"
+  arranger = "Thomas F. P. Batelaan (2017)"
 }
 
 global = {
@@ -19,13 +21,15 @@ global = {
 
 sopMusic = \relative {
   as'2 f des as'1 as2 bes (c) des des1 c2 | 
-  des f, des as'1 as2 bes(c) des c1 des2 | 
-  f es des es1 as,2 as1 g2 as1. 
-   as2 as as as (bes) c des (bes) as as1 g2
-   as as as as (bes) c des (bes) as g1 f2
+  des f, des as'1 as2 bes(c) des c1\trill des2\fermata | 
+  f es des es1 as,2 as1\trill g2 as1. 
+   as2 as as as (bes) c des (bes) as as1\trill g2\fermata
+   as as as as (bes) c des (bes) as g1\trill f2\fermata
    f' des des es1 as,2 des1 des4(c) c1. 
    des2 c bes a1 bes2 c (f,) f f1.
-   f2 des'2. c4 c1.
+   f2 des'2. c4 c1. f,2\p des'2. c4 c1.
+   des2 c,2. des4  des \melisma es8 f ges as bes c des2 \melismaEnd
+   des c,2. des4 des1.
 
 }
 sopWords = \lyricmode { 
@@ -36,7 +40,8 @@ es will kein Fünk -- lein mehr __ ver -- fan -- gen,
 des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
 Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
 es ist nun aus, est ist voll -- bracht,
-Welt gu -- te Nacht, Welt, gu -- te Nacht
+Welt gu -- te Nacht, Welt, gu -- te Nacht,
+Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
 
 
 }
@@ -47,7 +52,7 @@ altoMusic = \relative {
   f des des es1 des2 des(c) bes es1 f2 | 
   des es f es (c) c des1 des2 c1.
   c2 des es des (c4 bes) as2 f'1 f2 f1 e2
-  f f geses f1 es2 des4 (es f2) f e1 f2
+  f f ges f1 es2 des4 (es f2) f e1 f2
   as as f es (c) c f (es) es es1.
 
 }
@@ -146,5 +151,5 @@ Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
     >>
   >>
  \layout { }
- \midi {    \tempo 2 = 41}    
+ \midi {    \tempo 2 = 81}    
 }
