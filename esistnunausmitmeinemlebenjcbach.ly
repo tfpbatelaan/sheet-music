@@ -8,7 +8,7 @@
 
 \header {
   title = "Es ist nun aus mit meinem Leben"
-  meter = "Urtext"
+  meter = "Performing Edition"
   composer = "Johann Christoph Bach (1642 – 1703)"
   poet = "Magnus Daniel Omeis (1673)"
   arranger = "Thomas F. P. Batelaan (2017)"
@@ -153,3 +153,4 @@ Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
  \layout { }
  \midi {    \tempo 2 = 81}    
 }
+
