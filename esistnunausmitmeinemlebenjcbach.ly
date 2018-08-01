@@ -41,10 +41,10 @@ sopMusic =    \transpose des d
 sopWords = \lyricmode { 
 Es ist nun aus mit mei -- nem Le -- ben, 
 Gott nimmt es hin, der es __ ge -- ge -- ben. 
-Kein Tröpf -- lein mehr ist in dem Fass, 
-es will kein Fünk -- lein mehr __ ver -- fan -- gen,
+Kein TrÃ¶pf -- lein mehr ist in dem Fass, 
+es will kein FÃ¼nk -- lein mehr __ ver -- fan -- gen,
 des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
-Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
+Kein KÃ¶rn -- lein lÃ¤uft __ mehr in __ dem __ Glas,
 es ist nun aus, es ist voll -- bracht,
 Welt gu -- te Nacht, Welt, gu -- te Nacht,
 Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
@@ -76,8 +76,8 @@ du machst ein En -- de mei -- nem Lei -- den,
 das sich schon mit den Kind -- taufs -- freu -- den
 vor je -- nen hat ge -- fan -- gen an,
 nun ist es aus, es ist voll -- bracht,
-Welt gu -- te Nacht, Welt, gu -- te Nacht,
-Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
+Welt gu -- te Nacht, Welt, gu -- te Nacht.
+Welt gu -- te Nacht, Welt, gu -- te Nacht.
 
 }
 
@@ -97,16 +97,16 @@ tenorMusic = \transpose des d
 
 }
 tenorWords = \lyricmode { 
-Es ist nun aus mit mei -- nem Le -- ben, 
-Gott nimmt es hin, der es __ ge -- ge -- ben. 
-Kein Tröpf -- lein mehr ist in dem Fass, 
-es will kein Fünk -- lein mehr __ ver -- fan -- gen,
-des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
-Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
-es ist nun aus, es ist voll -- bracht,
-Welt gu -- te Nacht, Welt, gu -- te Nacht,
-Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
-
+Welt, gu -- te Nacht! Be -- halt das Dei -- ne
+und lass mir Je -- sum als das Mei -- ne,
+denn ich lass mei -- nen Je -- sum nicht!
+Be -- hüt euch Gott, ihr, mei -- ne Lie -- ben,
+lasst mei -- nen Tod euch nicht
+be -- trü -- ben,
+durch wel -- chen mir so wohl ge -- schieht;
+mein Leid ist aus, es ist voll -- bracht,
+Welt gu -- te Nacht, Welt, gu -- te Nacht.
+Welt gu -- te Nacht, Welt, gu -- te Nacht.
 
 }
 
@@ -124,17 +124,17 @@ bassMusic = \transpose des d
 
 }
 bassWords = \lyricmode { 
-Es ist nun aus mit mei -- nem Le -- ben, 
-Gott nimmt es hin, der es __ ge -- ge -- ben. 
-Kein Tröpf -- lein mehr ist in dem Fass, 
-es will kein Fünk -- lein mehr __ ver -- fan -- gen,
-des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
-Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
-es ist nun aus, es ist voll -- bracht,
-Welt gu -- te Nacht, Welt, gu -- te Nacht,
-Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
-Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
-
+Was wol -- let ihr euch nach mir seh -- nen?
+Ei, stil -- let, stil -- let eu -- re Trä -- nen,
+weil mei -- ne schon ge -- stil -- let sind,
+mir wischt sie Je -- sus von den Au -- gen,
+was sol -- len denn die eu -- ren tau -- gen,
+und la -- chet mit mir als ein Kind.
+Was Je -- sus macht, ist wohl -- ge -- macht!
+Welt gu -- te Nacht, Welt, gu -- te Nacht.
+Welt gu -- te Nacht, Welt, gu -- te Nacht.
+Welt gu -- te Nacht, Welt, gu -- te Nacht.
+Welt gu -- te Nacht, Welt, gu -- te Nacht.
 }
 
 \score {
