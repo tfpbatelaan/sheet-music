@@ -2,34 +2,34 @@
 \paper {
   top-system-spacing.basic-distance = #10
   score-system-spacing.basic-distance = #20
-  system-system-spacing.basic-distance = #20
+  system-system-spacing.basic-distance = #10
   last-bottom-spacing.basic-distance = #10
 }
 
 \header {
   title = "Es ist nun aus mit meinem Leben"
-  meter = "Urtext"
-  composer = "Johann Christoph Bach (1642 â 1703)"
+  meter = "Performing Edition"
+  composer = "Johann Christoph Bach (1642-1703)"
   poet = "Magnus Daniel Omeis (1673)"
-  arranger = "Thomas F. P. Batelaan (2017)"
+  arranger = "Thomas F. P. Batelaan (2018)"
 }
 
 global = {
   \key des \major
-  \time 3/4
+  \time 3/2
 }
 
 sopMusic = \relative {
-  as'8 f des as'8 as8 bes (c) des des8 c8 | 
-  des f, des as'8 as8 bes(c) des c8\trill des8\fermata | 
-  f es des es8 as,8 as8\trill g8 as8. 
-   as8 as as as (bes) c des (bes) as as8\trill g8\fermata
-   as as as as (bes) c des (bes) as g8\trill f8\fermata
-   f' des des es8 as,8 des8 des8(c) c8. 
-   des8 c bes a8 bes8 c (f,) f f8.
-   f8 des'8. c8 c8. f,8\p des'8. c8 c8.
-   des8 c,8. des8  des \melisma es8 f ges as bes c des8 \melismaEnd
-   des c,8. des8 des8.
+  as'2 f des as'1 as2 bes (c) des des1 c2 | 
+  des f, des as'1 as2 bes(c) des c1\trill des2\fermata | 
+  f es des es1 as,2 as1\trill g2 as1. 
+   as2 as as as (bes) c des (bes) as as1\trill g2\fermata
+   as as as as (bes) c des (bes) as g1\trill f2\fermata
+   f' des des es1 as,2 des1 des4(c) c1. 
+   des2 c bes a1 bes2 c (f,) f f1.
+   f2 des'2. c4 c1. f,2\p des'2. c4 c1.
+   des2 c,2. des4  des \melisma es8 f ges as bes c des2 \melismaEnd
+   des c,2. des4 des1.
 
 }
 sopWords = \lyricmode { 
@@ -39,7 +39,7 @@ Kein Tröpf -- lein mehr ist in dem Fass,
 es will kein Fünk -- lein mehr __ ver -- fan -- gen,
 des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
 Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
-es ist nun aus, est ist voll -- bracht,
+es ist nun aus, es ist voll -- bracht,
 Welt gu -- te Nacht, Welt, gu -- te Nacht,
 Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
 
@@ -48,12 +48,14 @@ Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
 
 
 altoMusic = \relative {
-  des'8 des des es8 des8 des(es) des8(es) f8 f8 | 
-  f des des es8 des8 des(c) bes es8 f8 | 
-  des es f es (c) c des8 des8 c8.
-  c8 des es des (c8 bes) as8 f'8 f8 f8 e8
-  f f ges f8 es8 des8 (es f8) f e8 f8
-  as as f es (c) c f (es) es es8.
+  des'2 des des es1 des2 des(es) des4(es) f1 f2 | 
+  f des des es1 des2 des(c) bes es1 f2 | 
+  des es f es (c) c des1 des2 c1.
+  c2 des es des (c4 bes) as2 f'1 f2 f1 e2
+  f f ges f1 es2 des4 (es f2) f e1 f2
+  as as f es (c) c f (es) es es1.
+  f2 es es es1 des2 es1 des2 c1.
+
 
 }
 altoWords = \lyricmode {
@@ -63,15 +65,19 @@ Kein Tröpf -- lein mehr ist in dem Fass,
 es will kein Fünk -- lein mehr __ ver -- fan -- gen,
 des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
 Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
+es ist nun aus, es ist voll -- bracht,
+Welt gu -- te Nacht, Welt, gu -- te Nacht,
+Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
 }
 
 tenorMusic = \relative {   \clef "G_8"
-  f8 as f es (f8 ges)  f8 f (g8 a)  bes8 bes8 a8 | 
-  as as f es(f8 ges) f8 ges8 f8 as8 as8 | 
-  as as as as8 as8 bes8 bes8 (es,) es8.
-  es8 es es f (g) as bes8 (c des8) c c8 c8 
-  c c c des f,8 (g as8) bes8 (c des8) c c8 a8
-  des as as as8 as8 as8 g8 as8.
+  f2 as f es (f4 ges)  f2 f (g4 a)  bes2 bes1 a2 | 
+  as as f es(f4 ges) f2 ges1 f2 as1 as2 | 
+  as as as as1 as2 bes1 bes4 (es,) es1.
+  es2 es es f (g) as bes4 (c des2) c c1 c2 
+  c c c des f,4 (g as2) bes4 (c des2) c c1 a2
+  des as as as1 as2 as1 g2 as1.
+  as2 ges bes c1 f,2 f1 bes2 a1.
 
 }
 tenorWords = \lyricmode { 
@@ -81,16 +87,20 @@ Kein Tröpf -- lein mehr ist in dem Fass,
 es will kein Fünk -- lein mehr __ ver -- fan -- gen,
 des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
 Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
+es ist nun aus, es ist voll -- bracht,
+Welt gu -- te Nacht, Welt, gu -- te Nacht,
+Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
 
 }
 
 bassMusic = \relative {   \clef bass
-  des8 des des des(c) des des(c) bes f'(f,) f' | 
-  des des des des(c) des ges,(as) bes as8 des8 | 
-  des c bes c (f) f bes, (es) es as,8.
-  as8 bes c des8 c8 bes8 f'8 c8 
-  c8f, f' es des8 c8 bes8 f'8 c8 f,8
-  des' f des c (f) f bes, (es) es, as8.
+  des2 des des des(c) des des(c) bes f'(f,) f' | 
+  des des des des(c) des ges,(as) bes as1 des2 | 
+  des c bes c (f) f bes, (es) es as,1.
+  as2 bes c des1 c2 bes1 f'2 c1 
+  c2f, f' es des1 c2 bes1 f'2 c1 f,2
+  des' f des c (f) f bes, (es) es, as1.
+  des2 es f c1 des2 a1 bes2 f1.
 
 }
 bassWords = \lyricmode { 
@@ -100,9 +110,11 @@ Kein Tröpf -- lein mehr ist in dem Fass,
 es will kein Fünk -- lein mehr __ ver -- fan -- gen,
 des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
 Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
+es ist nun aus, es ist voll -- bracht,
+Welt gu -- te Nacht, Welt, gu -- te Nacht,
+Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
 
 }
-
 
 \score {
   \new ChoirStaff <<
@@ -154,3 +166,4 @@ Kein Körn -- lein läuft __ mehr in __ dem __ Glas,
  \layout { }
  \midi {    \tempo 2 = 81}    
 }
+
