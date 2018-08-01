@@ -90,7 +90,7 @@ tenorMusic = \transpose des d
   c c c des f,4 (g as2) bes4 (c des2) c c1 a2
   des as as as1 as2 as1 g2 as2 r1
   as2 ges bes c1 f,2 f1 bes2 a2 r1
-  as2 bes2. bes4 bes2 r1 bes2 bes2. g4 as2 r1 
+  as2 bes2. bes4 bes2 r1 bes2\p bes2. g4 as2 r1 
   f2 es2. ges4 f2 r1 es2 es2. es4 f2 r1
   
   }
@@ -119,7 +119,7 @@ bassMusic = \transpose des d
   c2f, f' es des1 c2 bes1 f'2 c1 f,2
   des' f des c (f) f bes, (es) es, as2 r1
   des2 es f c1 des2 a1 bes2 f2 r1
-  des'2 des bes f'2 r1 bes2 bes, es as,2 r1 
+  des'2 des bes f'2 r1 bes2\p bes, es as,2 r1 
   des2 as' as, bes r1 ges2 as2. as4 des,2 r1 }
 
 }
