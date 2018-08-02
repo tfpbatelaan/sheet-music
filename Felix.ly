@@ -9,7 +9,7 @@
 #(set-global-staff-size 15.0)
 
 \header {
-  title = "Felix virgo / Inviolata genitrix / Ad te clamamus gementes et flentes"
+  title = "Felix virgo / Inviolata genitrix / Ad te suspiramus gementes et flentes"
   subtitle = "Motet 21"
   meter = "Performing Edition"
   composer = "Guillaume de Machault"
