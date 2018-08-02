@@ -22,11 +22,14 @@ global = {
 
 }
 
+ficta = { \once \set suggestAccidentals = ##t }
 
-sopMusic = { \relative { 
-d'2.~d2. \melisma  \[f4. e\] e4 d8 d4 cis8 d2.
+sopMusic = { 
+\relative { 
+d'2.~d2. \melisma  \[f4. e\] e4 d8 d4 \ficta cis8 d2.
 r4. e4 f8 \[ g4. d \] r4. g d a'4 g8 f4 e8 f4 d8 \melismaEnd
-cis2. ~ cis2.
+cis2. ~ cis2.  gis' \melisma r4. a4. g4 a8 g4 a8 f4 g8 a4 g8
+b4 a8 g4 f8 e2.  \melismaEnd
 
 }
 }
@@ -37,20 +40,24 @@ Fe -- lix vir -- go
 }
 
 
-altoMusic = \transpose des d 
-{\relative {
-  
+altoMusic = 
+{\relative { \clef "G_8"
+r2. r2. r2. r2. r2. r2.r2. r2. r2.r2. 
+e'2. ~ e f2. e4. d e2. f4. e a,2.
+\[cis d\]
 
 }
 }
 altoWords = \lyricmode {
-
-
+In -- vi -- o -- la -- ta ge -- ni -- trix
+Su -- per -- bi -- e gra -- ta vic -- trix
 }
 
-tenorMusic = \transpose des d 
-{\relative {   \clef "G_8"
- 
+tenorMusic = 
+{\relative {   \clef bass
+ r2. r2. r2. r2. r2. r2.r2. r2. r2.r2. r2. r2.r2. r2. r2.r2. r2. r2.r2. r2. r2.
+
+
   
   }
 
@@ -61,14 +68,13 @@ tenorWords = \lyricmode {
 
 bassMusic =
 \relative {   \clef bass
-
+ r2. r2. r2. r2. r2. r2.r2. r2. r2.r2. r2. r2.r2. r2. r2.r2. r2. r2.r2. r2. r2.
 
 }
 bassWords = \lyricmode { 
 
 }
 
-ficta = { \once \set suggestAccidentals = ##t }
 \score {
   \new ChoirStaff <<
     \new Staff <<
