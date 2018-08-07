@@ -50,9 +50,9 @@ altoMusic =
 {\relative { \clef "G_8"   \time 6/8
 r2. r2. r2. r2. r2. r2.r2. r2. r2.r2. 
 e'2. ~ e f2. e4. d e2. f4. e a,2.
-cis \mb d \me \ficta cis4. d e f g4 \mb f8 \me e4 \mb d8 \me cis2.~cis
+cis \mb d \me \ficta cis4. d e f g4 \mb f8 \me e4 \mb d8 \me cis2.~cis \break
 d ~ d f4 \mb e8 f4 g8 \me a4. d,
-d4 \mb e8 f4 g8 \me a \mb g f e4 d8 \me e2. ~ e ~ e
+d4 \mb e8 f4 g8 \me a \mb g f e4 d8 \me e2. ~ e ~ e \break
 f4 \mb e8 d4 c8 d4 e8 c4 d8 \me b4 \mb c8 a4 b8 \me c4 \mb b8 c4 a8 \me cis2. ~ cis d1..
 }
 }
@@ -67,10 +67,10 @@ au -- le ja -- ni -- trix,
 
 tenorMusic = 
 {\relative {   \clef bass   \time 12/8
-\compoundMeter #'((6 8) (6 8))
+\compoundMeter #'((6 6 8))
 
  r1. r r r r r r r r r r r
-\compoundMeter #'((6 8) (6 8) (6 8))
+\compoundMeter #'((6 6 6 8))
 
 a1. ~ a2. a1. ~ a2. e1. ~ e2. d2. g1. a2. \ficta gis1. a1.. \bar "|"
   
@@ -83,10 +83,10 @@ tenorWords = \lyricmode {
 
 bassMusic =
 \relative {   \clef bass   \time 12/8
-\compoundMeter #'((6 8) (6 8))
+\compoundMeter #'((6 6 8))
  r1. r r r r r r r r r r r
 
-\compoundMeter #'((6 8) (6 8) (6 8))
+\compoundMeter #'((6 6 6 8))
 d1. ~ d2. d1. ~ d2. g1. ~ g2. a2. e1. f2. e1. d1.. \bar "|"
 }
 bassWords = \lyricmode { 
@@ -122,6 +122,8 @@ bassWords = \lyricmode {
         \bassMusic
       >>
       \new Lyrics \lyricsto "bass" \bassWords
+
+
  >>
  
   >>
