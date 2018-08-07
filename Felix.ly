@@ -35,7 +35,7 @@ b4 a8 g4 f8 e2. r4. f e4 f8 e4 d8 \melismaEnd g4 f8 e4 d8
 }
 
 sopWords = \lyricmode { 
-Fe -- lix vir -- go, ma -- ter Chri -- sti,
+Fe -- lix vir -- go, \skip8  ma \skip8 -ter Chri -- sti,
 
 }
 
