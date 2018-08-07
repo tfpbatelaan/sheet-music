@@ -29,7 +29,7 @@ sopMusic = {
 \relative {   \time 6/8
 
 d'2.~d2. \melisma  f4. e e4 d8 d4 \ficta cis8 d2.
-r4. e4 f8 g4. d r4. g d a'4 g8 f4 e8 f4 d8 \melismaEnd
+r4. e4 f8 g4. d r4. g \break d a'4 g8 f4 e8 f4 d8 \melismaEnd
 cis2. ~ cis2.  gis' \melisma r4. a4. g4 a8 g4 a8 f4 g8 a4 g8
 b4 a8 g4 f8 e2. r4. f e4 f8 e4 d8 \melismaEnd g4 \mb f8 \me e4 \mb d8 \me c4. d e2.~e
 a2. ~ a d,4 \mb c8 \me d4 \mb e8 \me f4 \mb e8 f4 g8 \me a4 \mb g8 a4 f8 \me f8 \mb e f \me e4 \mb d8 \me cis2. ~ cis ~ cis
