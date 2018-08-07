@@ -29,13 +29,13 @@ sopMusic = {
 d'2.~d2. \melisma  \[f4. e\] e4 d8 d4 \ficta cis8 d2.
 r4. e4 f8 \[ g4. d \] r4. g d a'4 g8 f4 e8 f4 d8 \melismaEnd
 cis2. ~ cis2.  gis' \melisma r4. a4. g4 a8 g4 a8 f4 g8 a4 g8
-b4 a8 g4 f8 e2.  \melismaEnd
+b4 a8 g4 f8 e2. r4. f e4 f8 e4 d8 \melismaEnd g4 f8 e4 d8 
 
 }
 }
 
 sopWords = \lyricmode { 
-Fe -- lix vir -- go
+Fe -- lix vir -- go, ma -- ter Chri -- sti,
 
 }
 
