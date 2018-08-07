@@ -18,61 +18,67 @@
 
 global = {
   \key a \minor
-  \time 6/8
 
 }
 
 ficta = { \once \set suggestAccidentals = ##t }
 
 sopMusic = { 
-\relative { 
+\relative {   \time 6/8
+
 d'2.~d2. \melisma  f4. e e4 d8 d4 \ficta cis8 d2.
 r4. e4 f8 g4. d r4. g d a'4 g8 f4 e8 f4 d8 \melismaEnd
 cis2. ~ cis2.  gis' \melisma r4. a4. g4 a8 g4 a8 f4 g8 a4 g8
 b4 a8 g4 f8 e2. r4. f e4 f8 e4 d8 \melismaEnd g4 (f8) e4 (d8) c4. d e2.~e
+a2. ~ a d,4 c4 (d8) d4 (e8) f4 (e8 f4 g8 ) a4 (g8 a4 f8 ) f8 (e f ) e4 (d8) cis2. ~ cis ~ cis
 
 }
 }
 
 sopWords = \lyricmode { 
 Fe -- lix vir -- go,  ma -- ter Chri -- sti,
-
+Que gau -- di -- um mun -- do tri -- sti
 }
 
 
 altoMusic = 
-{\relative { \clef "G_8"
+{\relative { \clef "G_8"   \time 6/8
 r2. r2. r2. r2. r2. r2.r2. r2. r2.r2. 
 e'2. ~ e f2. e4. d e2. f4. e a,2.
 cis (d) \ficta cis4. d e f g4 (f8) e4 (d8) cis2.~cis
-
+d ~ d f4 (e8 f4 g8) a4. d,
+d4 ( e8 f4 g8 ) a (g f e4 d8 ) e2. ~ e ~ e
 }
 }
 altoWords = \lyricmode {
 In -- vi -- o -- la -- ta ge -- ni -- trix
 Su -- per -- bi -- e gra -- ta vic -- trix
+Ex -- pers __ pa -- ris, Ce -- le -- stis
 }
 
 tenorMusic = 
-{\relative {   \clef bass
- r2. r2. r2. r2. r2. r2.r2. r2. r2.r2. r2. r2.r2. r2. r2.r2. r2. r2.r2. r2. r2. r2. r2. r2.
-
-
+{\relative {   \clef bass   \time 12/8
+ r1. r r r r r r r r r r r
+ \time 8/4
+a1. ~ a2. a e
   
   }
 
 }
 tenorWords = \lyricmode { 
-
+Ad te sus -- pi -- ra -- mus
 }
 
 bassMusic =
-\relative {   \clef bass
- r2. r2. r2. r2. r2. r2.r2. r2. r2.r2. r2. r2.r2. r2. r2.r2. r2. r2.r2. r2. r2. r r r
+\relative {   \clef bass   \time 12/8
+ r1. r r r r r r r r r r r
 
+ \time 8/4
+
+d1. ~ d2. d g
 }
 bassWords = \lyricmode { 
-
+Ad te sus -- pi -- ra -- mus
 }
 
 \score {
@@ -107,7 +113,16 @@ bassWords = \lyricmode {
  >>
  
   >>
- \layout { }
+ \layout {\context {
+    \Score
+    \remove "Timing_translator"
+    \remove "Default_bar_line_engraver"
+  }
+  \context {
+    \Staff
+    \consists "Timing_translator"
+    \consists "Default_bar_line_engraver"
+  } }
  \midi {    \tempo 2 = 81}    
 }
 
