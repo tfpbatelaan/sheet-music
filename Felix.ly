@@ -11,9 +11,8 @@
 \header {
   title = "Felix virgo / Inviolata genitrix / Ad te suspiramus gementes et flentes"
   subtitle = "Motet 21"
-  meter = "Performing Edition"
-  composer = "Guillaume de Machault"
-  arranger = "Thomas F. P. Batelaan (2018)"
+  composer = "Tekst en Muziek: Guillaume de Machault"
+  arranger = "Red. Thomas F. P. Batelaan (2018)"
 }
 
 global = {
@@ -34,8 +33,8 @@ cis2. ~ cis2.  gis' \melisma r4. a4. g4 a8 g4 a8 f4 g8 a4 g8
 b4 a8 g4 f8 e2. r4. f e4 f8 e4 d8 \melismaEnd g4 \mb f8 \me e4 \mb d8 \me c4. d e2.~e
 a2. ~ a d,4 \mb c8 \me d4 \mb e8 \me f4 \mb e8 f4 g8 \me a4 \mb g8 a4 f8 \me f8 \mb e f \me e4 \mb d8 \me cis2. ~ cis ~ cis
 d4. a' g4 \mb a8 g4 f8 \me e4 \mb f8 \me d4 \mb e8 \me f8 \mb g4 a8 f4 \me gis2. ~ gis a2. ~ a ~ a \break
-a4. ~ ( a4 g8)\mb  a8 g a f4 e8 \me d4. \mb e4 \ficta fis8 \me  g4 \mb a8 \ficta fis4 g8 \me e2. ~ e
-
+a4. ~ ( a4 g8)\mb  a8 g a f4 e8 \me d4. \mb e4 \ficta fis8 \me  g4 \mb a8 \ficta fis4 g8 \me e2. ~ e \break
+g4. a g2. f8 \mb e f \me d4 \mb e8 \me f4 \mb e8 \me d4 \mb c8 \me d2.
 }
 }
 
@@ -44,6 +43,7 @@ Fe -- lix vir -- go,  ma -- ter Chri -- sti,
 Que gau -- di -- um mun -- do tri -- sti
 Or -- tu tu -- i con -- tu -- li -- sti,
 Dul -- cis -- si -- ma;
+Sic he -- re -- ses per -- e -- mi -- sti,
 }
 
 
@@ -93,7 +93,7 @@ bassMusic =
 
 \compoundMeter #'((6 6 6 8))
 d1. ~ d2. d1. ~ d2. g1. ~ g2. a2. e1. f2. e1. d1. ~ d2.
-
+r2. d1. c1. ~ c2.
 }
 bassWords = \lyricmode { 
 
