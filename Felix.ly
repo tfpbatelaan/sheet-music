@@ -33,7 +33,8 @@ r4. e4 f8 g4. d r4. g \break d a'4 g8 f4 e8 f4 d8 \melismaEnd
 cis2. ~ cis2.  gis' \melisma r4. a4. g4 a8 g4 a8 f4 g8 a4 g8
 b4 a8 g4 f8 e2. r4. f e4 f8 e4 d8 \melismaEnd g4 \mb f8 \me e4 \mb d8 \me c4. d e2.~e
 a2. ~ a d,4 \mb c8 \me d4 \mb e8 \me f4 \mb e8 f4 g8 \me a4 \mb g8 a4 f8 \me f8 \mb e f \me e4 \mb d8 \me cis2. ~ cis ~ cis
-d4. a' g4 \mb a8 g4 f8 \me e4 \mb f8 \me d4 \mb e8 \me f8 \mb g4 a8 f4 \me gis2. ~ gis a1..
+d4. a' g4 \mb a8 g4 f8 \me e4 \mb f8 \me d4 \mb e8 \me f8 \mb g4 a8 f4 \me gis2. ~ gis a2. ~ a ~ a
+
 
 }
 }
@@ -53,7 +54,7 @@ e'2. ~ e f2. e4. d e2. f4. e a,2.
 cis \mb d \me \ficta cis4. d e f g4 \mb f8 \me e4 \mb d8 \me cis2.~cis \break
 d ~ d f4 \mb e8 f4 g8 \me a4. d,
 d4 \mb e8 f4 g8 \me a \mb g f e4 d8 \me e2. ~ e ~ e \break
-f4 \mb e8 d4 c8 d4 e8 c4 d8 \me b4 \mb c8 a4 b8 \me c4 \mb b8 c4 a8 \me cis2. ~ cis d1..
+f4 \mb e8 d4 c8 d4 e8 c4 d8 \me b4 \mb c8 a4 b8 \me c4 \mb b8 c4 a8 \me cis2. ~ cis d2. ~ d ~ d
 }
 }
 altoWords = \lyricmode {
@@ -72,7 +73,7 @@ tenorMusic =
  r1. r r r r r r r r r r r
 \compoundMeter #'((6 6 6 8))
 
-a1. ~ a2. a1. ~ a2. e1. ~ e2. d2. g1. a2. \ficta gis1. a1.. \bar "|"
+a1. ~ a2. a1. ~ a2. e1. ~ e2. d2. g1. a2. \ficta gis1. a1. ~ a2. \bar "|"
   
   }
 
@@ -87,7 +88,7 @@ bassMusic =
  r1. r r r r r r r r r r r
 
 \compoundMeter #'((6 6 6 8))
-d1. ~ d2. d1. ~ d2. g1. ~ g2. a2. e1. f2. e1. d1.. \bar "|"
+d1. ~ d2. d1. ~ d2. g1. ~ g2. a2. e1. f2. e1. d1. ~ d2.
 }
 bassWords = \lyricmode { 
 
