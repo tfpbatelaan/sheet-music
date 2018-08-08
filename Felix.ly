@@ -34,7 +34,8 @@ b4 a8 g4 f8 e2. r4. f e4 f8 e4 d8 \melismaEnd g4 \mb f8 \me e4 \mb d8 \me c4. d 
 a2. ~ a d,4 \mb c8 \me d4 \mb e8 \me f4 \mb e8 f4 g8 \me a4 \mb g8 a4 f8 \me f8 \mb e f \me e4 \mb d8 \me cis2. ~ cis ~ cis
 d4. a' g4 \mb a8 g4 f8 \me e4 \mb f8 \me d4 \mb e8 \me f8 \mb g4 a8 f4 \me gis2. ~ gis a2. ~ a ~ a \break
 a4. ~ ( a4 g8)\mb  a8 g a f4 e8 \me d4. \mb e4 \ficta fis8 \me  g4 \mb a8 \ficta fis4 g8 \me e2. ~ e \break
-g4. a g2. f8 \mb e f \me d4 \mb e8 \me f4 \mb e8 \me d4 \mb c8 \me d2. r
+g4. a g2. f8 \mb e f \me d4 \mb e8 \me f4 \mb e8 \me d4 \mb c8 \me d2. r \break
+c4 \mb d8 e4 f8 e4. d \me a'2. f4 \mb e8 f4 g8 \me e2. ~ e
 }
 }
 
@@ -44,6 +45,7 @@ Que gau -- di -- um mun -- do tri -- sti
 Or -- tu tu -- i con -- tu -- li -- sti,
 Dul -- cis -- si -- ma;
 Sic he -- re -- ses per -- e -- mi -- sti,
+Dum __ an -- ge -- lo cre -- di -- di -- sti
 }
 
 
