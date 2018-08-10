@@ -25,7 +25,7 @@ altoWords = \lyricmode {
 }
 
 tenorMusic = \relative c' {
-r1 r r r r r r r r r r r r r r r r r r r r  a2. a8 d f4 f f f e8 c g2. e8 f gis a bes4 bes c8 bes a4 e'4. d8 c bes a4 f'4. d8 c4 e e, gis a
+r1 r r r r r r r r r r r r r r r r r r r r  a2. a8 d f4 f f f e8 c g2. e8 f gis a bes4 bes c8 bes a4 e'4. d8 c bes a4 f'4. d8 c4 e e, gis a 
 
 }
 tenorWords = \lyricmode {
