@@ -20,6 +20,7 @@ sopWords = \lyricmode {
 
 altoMusic = \relative c' {
 d2. d8 g bes4 bes bes bes a8 f c2. a8 bes cis d e4 e f8 e d4 a'4. g8 f e d4 bes'4. g8 f4 a a, cis d 
+
 }
 altoWords = \lyricmode {
 }
