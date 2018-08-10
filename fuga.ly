@@ -19,8 +19,8 @@ sopWords = \lyricmode {
 }
 
 altoMusic = \relative c' {
-d2. d8 g bes4 bes bes bes a8 f c2. a8 bes cis d e4 e f8 e d4 a'4. g8 f e d4 bes'4. g8 f4 a a, cis d 
-
+d2. d8 g bes4 bes bes bes a8 f c2. a8 bes cis d e4 e f8 e d4 a'4. g8 f e d4 bes'4. g8 f4 a a, cis 
+d8 e f4 e8 f e f ~ f a4 bes c d8 ~ d 
 }
 altoWords = \lyricmode {
 }
@@ -77,6 +77,6 @@ bassWords = \lyricmode {
     \context Lyrics = "basses" \lyricsto "basses" \bassWords
   >>
   \layout{}
-  \midi{    \tempo 2 = 120
+  \midi{    \tempo 2 = 110
 }
 }
