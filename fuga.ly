@@ -12,28 +12,29 @@ global = {
 
 sopMusic = 
 \relative c' {
-r1 r r r  r r r a'2. a8 d f4 f f f e8 c g2. e8 f gis a bes4 bes c8 bes a4 e'4. d8 c bes a4 f'4. d8 c4 e e, gis a
+r1 r r r  r r r a'2. a8 d f4 f f f e8 c g2. e8 fis gis a b4 b c8 b a4 e'4. d8 c b a4 f'4. d8 c4 e e, gis a
+d 
 }
 
 sopWords = \lyricmode {
 }
 
 altoMusic = \relative c' {
-d2. d8 g bes4 bes bes bes a8 f c2. a8 bes cis d e4 e f8 e d4 a'4. g8 f e d4 bes'4. g8 f4 a a, cis 
-d8 e f4 e8 f e f ~ f a4 bes c d8 ~ d 
+d2. d8 g bes4 bes bes bes a8 f c2. a8 b cis d e4 e f8 e d4 a'4. g8 f e d4 bes'4. g8 f4 a a, cis 
+d4 a2 f'4 f g a bes a2 bes2
 }
 altoWords = \lyricmode {
 }
 
 tenorMusic = \relative c' {
-r1 r r r r r r r r r r r r r r r r r r r r  a2. a8 d f4 f f f e8 c g2. e8 f gis a bes4 bes c8 bes a4 e'4. d8 c bes a4 f'4. d8 c4 e e, gis a 
+r1 r r r r r r r r r r r r r r r r r r r r  a2. a8 d f4 f f f e8 c g2. e8 fis gis a b4 b c8 b a4 e'4. d8 c b a4 f'4. d8 c4 e e, gis a 
 
 }
 tenorWords = \lyricmode {
 }
 
 bassMusic = \relative c {
-r1 r r r r r r r r r r r r r d2. d8 g bes4 bes bes bes a8 f c2. a8 bes cis d e4 e f8 e d4 a'4. g8 f e d4 bes'4. g8 f4 a a, cis d 
+r1 r r r r r r r r r r r r r e4 d r4 d8 g bes4 bes bes bes a8 f c2. a8 b cis d e4 e f8 e d4 a'4. g8 f e d4 bes'4. g8 f4 a a, cis d 
 
 }
 bassWords = \lyricmode {
