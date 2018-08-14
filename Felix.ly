@@ -85,6 +85,9 @@ a1. ~ a2. a1. ~ a2. e1. ~ e2. d2. g1. a2. \ficta gis1. a1. ~ a2. \bar "|"
   \compoundMeter #'((6 6 8))
 a1.  r c g1. bes bes
 r2. a2. d, f e1.
+
+\compoundMeter #'((6 6 6 8))
+
   }
 
 }
@@ -102,6 +105,10 @@ d1. ~ d2. d1. ~ d2. g1. ~ g2. a2. e1. f2. e1. d1. ~ d2.
 r2. d1. c1. ~ c2.
 r1. ~ r2. f2. g1.
 a1. ~ a2. c2. g1.
+
+\compoundMeter #'((6 6 8))
+
+
 }
 bassWords = \lyricmode { 
 
@@ -109,28 +116,40 @@ bassWords = \lyricmode {
 
 \score {
   \new ChoirStaff <<
-    \new Staff <<
+    \new Staff \with {
+  instrumentName = #"Triplum "
+  shortInstrumentName = #"Tr. "
+}<<
       \new Voice = "soprano" <<
         \global
         \sopMusic
       >>
       \new Lyrics \lyricsto "soprano" \sopWords
     >>
-    \new Staff <<
+    \new Staff \with {
+  instrumentName = #"Motetus "
+  shortInstrumentName = #"Mt. "
+}<<
       \new Voice = "alto" <<
         \global
         \altoMusic
       >>
       \new Lyrics \lyricsto "alto" \altoWords
     >>
-    \new Staff <<
+    \new Staff \with {
+  instrumentName = #"Contratenor "
+  shortInstrumentName = #"cT. "
+}<<
       \new Voice = "tenor" <<
         \global
         \tenorMusic
       >>
       \new Lyrics \lyricsto "tenor" \tenorWords
     >>
-    \new Staff <<
+    \new Staff \with {
+  instrumentName = #"Tenor "
+  shortInstrumentName = #"T. "
+}<<
       \new Voice = "bass" <<
         \global
         \bassMusic
