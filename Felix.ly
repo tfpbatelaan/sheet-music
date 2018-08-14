@@ -59,6 +59,7 @@ d4 \mb e8 f4 g8 \me a \mb g f e4 d8 \me e2. ~ e ~ e \break
 f4 \mb e8 d4 c8 d4 e8 c4 d8 \me b4 \mb c8 a4 b8 \me c4 \mb b8 c4 a8 \me cis2. ~ cis d2. ~ d ~ d
 e2. \mb d2. \me b4. \mb a4 b8 \me c4 \mb b8 a4 b8 \me g2. ~ g
 e'2. ~ e d4  \mb e8 f4 e8 d2. \me g4. \mb d4 e8 f4 e8 f4 d8 \me \break
+e2. r d \mb a4 b8 c4 a8 \me b2. ~ b
 }
 }
 altoWords = \lyricmode {
@@ -66,7 +67,8 @@ In -- vi -- o -- la -- ta ge -- ni -- trix
 Su -- per -- bi -- e gra -- ta vic -- trix
 Ex -- pers __ pa -- ris, Ce -- le -- stis
 au -- le ja -- ni -- trix,
-Mi -- se -- ro -- rum ex -- au -- di -- trix
+Mi -- se -- ro -- rum ex -- au -- di -- trix,
+Stel -- la
 
 
 
