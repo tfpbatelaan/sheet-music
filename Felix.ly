@@ -59,7 +59,7 @@ d4 \mb e8 f4 g8 \me a \mb g f e4 d8 \me e2. ~ e ~ e \break
 f4 \mb e8 d4 c8 d4 e8 c4 d8 \me b4 \mb c8 a4 b8 \me c4 \mb b8 c4 a8 \me cis2. ~ cis d2. ~ d ~ d
 e2. \mb d2. \me b4. \mb a4 b8 \me c4 \mb b8 a4 b8 \me g2. ~ g
 e'2. ~ e d4  \mb e8 f4 e8 d2. \me g4. \mb d4 e8 f4 e8 f4 d8 \me \break
-e2. r d \mb a4 b8 c4 a8 \me b2. ~ b
+e2. r d \mb a4 b8 c4 a8 \me b2. ~ b \break
 }
 }
 altoWords = \lyricmode {
@@ -84,6 +84,7 @@ tenorMusic =
 a1. ~ a2. a1. ~ a2. e1. ~ e2. d2. g1. a2. \ficta gis1. a1. ~ a2. \bar "|"
   \compoundMeter #'((6 6 8))
 a1.  r c g1. bes bes
+r2. a2. d, f e1.
   }
 
 }
@@ -100,6 +101,7 @@ bassMusic =
 d1. ~ d2. d1. ~ d2. g1. ~ g2. a2. e1. f2. e1. d1. ~ d2.
 r2. d1. c1. ~ c2.
 r1. ~ r2. f2. g1.
+a1. ~ a2. c2. g1.
 }
 bassWords = \lyricmode { 
 
