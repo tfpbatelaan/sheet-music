@@ -41,10 +41,10 @@ sopMusic =    \transpose des d
 sopWords = \lyricmode { 
 Es ist nun aus mit mei -- nem Le -- ben, 
 Gott nimmt es hin, der es __ ge -- ge -- ben. 
-Kein TrÃ¶pf -- lein mehr ist in dem Fass, 
-es will kein FÃ¼nk -- lein mehr __ ver -- fan -- gen,
+Kein TrÃÂ¶pf -- lein mehr ist in dem Fass, 
+es will kein FÃÂ¼nk -- lein mehr __ ver -- fan -- gen,
 des Le -- bens Licht __ ist aus -- ge -- gan -- gen.
-Kein KÃ¶rn -- lein lÃ¤uft __ mehr in __ dem __ Glas,
+Kein KÃÂ¶rn -- lein lÃÂ¤uft __ mehr in __ dem __ Glas,
 es ist nun aus, es ist voll -- bracht,
 Welt gu -- te Nacht, Welt, gu -- te Nacht,
 Welt gu -- te Nacht, __ Welt, gu -- te Nacht.
@@ -100,9 +100,9 @@ tenorWords = \lyricmode {
 Welt, gu -- te Nacht! Be -- halt das Dei -- ne
 und lass mir Je -- sum als das Mei -- ne,
 denn ich lass mei -- nen Je -- sum nicht!
-Be -- hÃ¼t euch Gott, ihr, mei -- ne Lie -- ben,
+Be -- hÃÂ¼t euch Gott, ihr, mei -- ne Lie -- ben,
 lasst mei -- nen Tod euch nicht
-be -- trÃ¼ -- ben,
+be -- trÃÂ¼ -- ben,
 durch wel -- chen mir so wohl ge -- schieht;
 mein Leid ist aus, es ist voll -- bracht,
 Welt gu -- te Nacht, Welt, gu -- te Nacht.
@@ -125,7 +125,7 @@ bassMusic = \transpose des d
 }
 bassWords = \lyricmode { 
 Was wol -- let ihr euch nach mir seh -- nen?
-Ei, stil -- let, stil -- let eu -- re TrÃ¤ -- nen,
+Ei, stil -- let, stil -- let eu -- re TrÃÂ¤ -- nen,
 weil mei -- ne schon ge -- stil -- let sind,
 mir wischt sie Je -- sus von den Au -- gen,
 was sol -- len denn die eu -- ren tau -- gen,
@@ -138,7 +138,7 @@ Welt gu -- te Nacht, Welt, gu -- te Nacht.
 }
 
 \score {
-  \new ChoirStaff <<
+  \new ChoirStaff \with <<
     \new Staff <<
       \new Voice = "soprano" <<
         \global
