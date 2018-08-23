@@ -42,7 +42,7 @@ d'4 e f g a4 b c bes a g f e d e f g a bes a b cis d e f e2 f4 e d2
 tenorMusic = 
 {\relative c {   \clef "G_8"
   }
-  a'2 a' a' 
+  d2 f a  c e a
 
 }
 
@@ -59,20 +59,20 @@ d1 d2 c1 c2 bes1 bes2 a1 a2
 
 }
  bassWords = 
- \lyricmode {Herr: es ist Zeit. Der Som -- mer war sehr groß.
+ \lyricmode {Herr: es ist Zeit. Der Som -- mer war sehr groÃ.
 Leg dei -- nen Schat -- ten auf die Son -- nen -- uh -- ren,
-und auf den Flu -- ren laß die Win -- de los.
+und auf den Flu -- ren laÃ die Win -- de los.
 
-Be -- fiehl den letz -- ten Früch -- ten voll zu sein;
-gieb ih -- nen noch zwei süd -- lich -- e-- re Ta -- ge,
-drÃ¤n--ge sie zur Voll--en--dung hin und ja--ge
-die letz--te SÃ¼--Ãe in den schwe--ren Wein.
+Be -- fiehl den letz -- ten FrÃ¼ch -- ten voll zu sein;
+gieb ih -- nen noch zwei sÃ¼d -- lich -- e-- re Ta -- ge,
+drÃÂ¤n--ge sie zur Voll--en--dung hin und ja--ge
+die letz--te SÃÂ¼--ÃÂe in den schwe--ren Wein.
 
 Wer jetzt kein Haus hat, baut sich keines mehr.
 Wer jetzt allein ist, wird es lange bleiben,
 wird wachen, lesen, lange Briefe schreiben
 und wird in den Alleen hin und her
-unruhig wandern, wenn die BlÃ¤tter treiben.}
+unruhig wandern, wenn die BlÃÂ¤tter treiben.}
 
 \score {
   \new ChoirStaff <<
