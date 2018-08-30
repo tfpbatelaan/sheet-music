@@ -34,23 +34,25 @@ e, f e d g e
 sopWords = \lyricmode { 
 Du ed -- les An -- ge -- sich -- te,
 da -- vor sonst schrickt und scheut
-das gro -- ße Welt -- ge -- wich -- te,
+das gro -- sse Welt -- ge -- wich -- te,
 wie bist du so be -- speit,
 wie bist du so er -- blei -- chet!
 Wer hat dein Au -- gen -- licht,
 dem sonst kein Licht nicht glei -- chet,
-so schänd -- lich zu -- ge -- richt't?
+so schÃ¤nd -- lich zu -- ge -- richt't?
 }
 
 
 altoMusic = 
-{\relative {
+{\relative c'{
+e4 e e e e e2 e4
 }
 }
 
 
 tenorMusic = 
-{\relative c {   \clef "G_8"
+{\relative c' {   \clef "G_8"
+b4 b b b b b2 b4
   }
 
 }
@@ -58,7 +60,10 @@ tenorMusic =
 
 bassMusic = 
 { \relative {   \clef bass
-a f g a b a c a
+e4 e e e e e2 e4
+b4 a8 (b) c (d) e4 e, a2. 
+e4 e e e e e2 e4
+b'4 a8 (b) c (d) e4 e, a2. 
 
 
 }
