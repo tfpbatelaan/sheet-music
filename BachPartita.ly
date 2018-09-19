@@ -4,7 +4,7 @@ global = {
   \dynamicUp
 }
 sopranonotes = \relative c'' {
-\partial2 a2 e'2. f4 d4. (c8) bes4 (a g) a2.
+\partial2 a2 e'4 e2 f4 (d4.) c8 bes4 (a g) a2.
 }
 sopranowords = \lyricmode { 
 Christ lag in To -- des -- ban -- den}
