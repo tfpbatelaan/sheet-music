@@ -4,23 +4,28 @@ global = {
   \dynamicUp
 }
 sopranonotes = \relative c'' {
-\partial2 a4. a8 e'4 e4. e8 f4 d4. c8 bes4 a g16 f e f g e f d a'4.
+\partial2 a2 e'2. f4 d4. (c8) bes4 (a g) a2.
 }
-sopranowords = \lyricmode { }
-altonotes = \relative c'' {
- 
+sopranowords = \lyricmode { 
+Christ lag in To -- des -- ban -- den}
+altonotes = \relative c' {
+f2 bes4 a2 f4 f2 d2 cis4  f2.
 }
 altowords = \lyricmode { }
-tenornotes = {
+tenornotes = {\relative c { 
   \clef "G_8"
-
+d2 ~ d4 g2 d4 f2 g4 f (e) d2.
 }
-tenorwords = \lyricmode { }
-bassnotes = {
-  \clef bass
-d'2 d4 cis2 d4 bes,2 g,4 a, cis d8 d2
 }
-basswords = \lyricmode { }
+tenorwords = \lyricmode { 
+Christ lag in To -- des -- ban -- den
+}
+bassnotes = { \relative c {  \clef bass
+d2 ~ d4 cis2 d4 bes2 g4 a2 d,2. }
+}
+basswords = \lyricmode { 
+Christ lag in To -- des -- ban -- den
+}
 
 \score {
   \new ChoirStaff <<
@@ -51,9 +56,23 @@ basswords = \lyricmode { }
         \bassnotes
       >>
       \lyricsto "bass" \new Lyrics \basswords
-    >>
-
-  >>
+>>
+    \new PianoStaff <<
+      \new Staff <<
+        \set Staff.printPartCombineTexts = ##f
+        \partcombine
+        << \global \sopranonotes >>
+        << \global \altonotes >>
+      >>
+      \new Staff <<
+        \clef bass
+        \set Staff.printPartCombineTexts = ##f
+        \partcombine
+        << \global \tenornotes >>
+        << \global \bassnotes >>
+      >>
+>>
+>>
       \midi{}
     \layout{}
 }
