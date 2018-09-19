@@ -4,36 +4,37 @@ global = {
   \dynamicUp
 }
 sopranonotes = \relative c'' {
-\partial2 a2 e'4 e2 f4 (d4.) c8 bes4 (a g ~ g4) 
+\partial2 a2 e'4 e2 f4 (d4.) c8 bes4 (a) g ~ g4
 a2 e'4 e2 f4 (d4.) c8
 }
 sopranowords = \lyricmode { 
-Christ lag in To -- des -- ban -- den}
+Christ lag in To -- des -- ban -- den,}
 altonotes = \relative c' {
-f2 bes4 a4 (g) f f (e) d2 ~ d8 (cis8 ~ cis4 ) 
-f2 bes4 a4 (g) f f (e)
+f2 bes4 a4 (g) f f (e) d2 ~ d8 cis8 ~ cis4
+a'2 (g2.) f e d
 }
 altowords = \lyricmode { 
-Christ lag in To -- des -- ban -- den
+Christ lag in To -- des -- ban -- den,
+Hal -- le -- lu -- ja!
 }
 tenornotes = {\relative c { 
   \clef "G_8"
 d2 ~ d4 g2 d4 f2 g4 f (e) d4
-d2 ~ d4 g2 d4 
+f2 bes4 a2
 }
 }
 tenorwords = \lyricmode { 
 Christ lag in To -- des -- ban -- den,
-für uns -- re Sünd ge -- ge -- ben.
+
 }
 bassnotes = { \relative c {  \clef bass
 d2 ~ d4 cis2 d4 bes2 g4 a2 d,4 
-d'2 ~ d4 cis2 d4 
+d'2 ~ d4 cis2 d4 bes2
 }
 }
 basswords = \lyricmode { 
 Christ lag in To -- des -- ban -- den,
-für uns -- re Sünd ge -- ge -- ben.
+
 }
 
 \score {
