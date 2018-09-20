@@ -1,3 +1,9 @@
+\header {
+  title = "CHACONNE"
+  subtitle = \markup { "Partita nr. 2 voor viool solo" }
+  arranger = "arr. Thomas Batelaan."
+  composer = "Johann Sebastian Bach."
+}
 global = {
   \key d \minor
   \time 3/4
@@ -10,8 +16,7 @@ f4 r2 e4 e2
 e4 d8. f16 e8. d16 cis4 r4 r8. a'16
 f4 r2 e4 e2 
 e4 d8. f16 e8.
-cis16 d8. e16 d4 cis8. d16
-d4 cis r8. a'16 f2. e4 e2 e4 d8. f16 e8. cis16 d8. e16 d4 cis8. d16
+cis16 d8. e16 d4 cis8. d16 
 d8. ( e16 f8. g32 a bes8. a16)
 }
 sopranowords = \lyricmode { 
