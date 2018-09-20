@@ -12,11 +12,13 @@ sopranowords = \lyricmode {
 Christ lag in To -- des -- ban -- den,}
 altonotes = \relative c' {
 f2 bes4 a4 (g) f f (e) d2 ~ d8 cis8 ~ cis4
-f2 bes4 a2 a4 bes c d cis2 
-d4 r2 bes4 a2 a4 bes8.
+f2 bes4 (a2 ) a4  ( bes c d ) cis2 
+d,8 ( e f2 ) g2. f2. (e f) g f ~ f4 e2 d
 }
 altowords = \lyricmode { 
 Christ lag in To -- des -- ban -- den,
+Hal -- le -- lu -- ja!
+Den Tod nie -- mand zwin -- gen kunnt.
 }
 tenornotes = {\relative c { 
   \clef "G_8"
@@ -34,7 +36,7 @@ Hal -- le -- lu -- ja!
 bassnotes = { \relative c {  \clef bass
 d2 ~ d4 cis2 d4 bes2 g4 a2 d,4 
 d'2 ~ d4 cis2 d4 bes2 g4 a2 
-d4 r2 d4 cis2 d4 bes4 r8. g16 a4
+d4 r2 d4 cis2 d4 bes4 r8. g16 a2 r8. a16
 }
 }
 basswords = \lyricmode { 
