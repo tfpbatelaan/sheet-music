@@ -6,7 +6,11 @@ global = {
 sopranonotes = \relative c'' {
 \partial2 a2 e'4 e2 f4 (d4.) c8 bes4 (a) g ~ g4
 a2 e'4 e2 f4 (d4.) d8 bes'4 a8. g32 f g8. e16 
-f4 r2 e4 e2 e4 d8.f16 e8. cis16 d8. e16 d4 cis8. d16
+f4 r2 e4 e2 
+e4 d8. f16 e8. d16 cis r4 r8. a'16
+f4 r2 e4 e2 
+e4 d8. f16 e8.
+cis16 d8. e16 d4 cis8. d16
 d4 cis r8. a'16 f2. e4 e2 e4 d8. f16 e8. cis16 d8. e16 d4 cis8. d16
 d8. ( e16 f8. g32 a bes8. a16)
 }
