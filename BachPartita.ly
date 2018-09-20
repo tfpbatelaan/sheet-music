@@ -17,7 +17,11 @@ e4 d8. f16 e8. d16 cis4 r4 r8. a'16
 f4 r2 e4 e2 
 e4 d8. f16 e8.
 cis16 d8. e16 d4 cis8. d16 
-d8. ( e16 f8. g32 a bes8. a16)
+d8. ( e16 f8. g32 a bes8.) 
+f16 e8. bes'16 a8. g16 a8. fis16 g8. f16 e8. d32 cis d8. e16 f8. g16 e8.f16 g8. e16
+f8. ( e16 f8. g32 a bes8.) 
+f16 e8. bes'16 a8. g16 a8. fis16 g8. f16 e8. d32 cis d8. e16 f8. g16 e8.f16 g8. e16
+
 }
 sopranowords = \lyricmode { 
 Christ lag in To -- des -- ban -- den,}
@@ -50,7 +54,7 @@ d2 ~ d4 cis2 d4 bes2 g4 a2 d,4
 d'2 ~ d4 cis2 d4 bes2 g4 a2 
 d4 r2 d4 cis2 d4 bes4 r8. g16 a2 r8. a16
 d2. d4 cis2 d4 bes4 r8. bes16 a8. g16 a2
-d
+
 }
 }
 basswords = \lyricmode { 
