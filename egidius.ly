@@ -11,20 +11,28 @@ global = {
 }
 
 sopMusic = \relative c'' {
-a8 a8. a16 a4 r2
-a8 a8. a16 a4 r2
-a8 a8. a16 a4 r2
-a8 a8. a16 a4 r2
+d,1 d d d
+d'4. d,8 d4 d 
+d d d d
+d'4. d,8 d4 d 
+d d d d
+
+
 }
 sopWords = \lyricmode {
 
 }
 
 altoMusic = \relative c' {
-a'8 a8. a16 a4 r2
-a8 a8. a16 a4 r2
-d,8 d8. d16 d4 r2
-d8 d8. d16 d4 r2
+d1
+bes1
+b1
+c1
+d4 d d d
+bes4 bes bes bes
+b4 b b b
+c4 c c c
+
 
 
 }
@@ -43,18 +51,30 @@ Du coors die doot du liets mi tleven
 }
 
 tenorMusic = \relative {
-a8 a8. a16 a4 r2
-a8 a8. a16 a4 r2
-a8 a8. a16 a4 r2
+d1
+d1
+g1
+f1
+d4 d d d
+d4 d d d
+g4 g g g
+f4 f f f
+
 }
 tenorWords = \lyricmode {
 
 }
 
 bassMusic = \relative {
-a8 a8. a16 a4 r2
-f8 f8. f16 f4 r2
-d8 d8. d16 d4 r2
+d1
+d1
+d1
+d1
+d4 d d d
+d4 d d d
+d4 d d d
+d4 d d d
+
 
 }
 bassWords = \lyricmode {
