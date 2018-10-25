@@ -13,14 +13,14 @@ global = {
 }
 
 sopMusic = \relative c'' {
-a4 b c4 c c c8(dis) e4 e
+a4 b c4 c c c8(d) e4 e
 f e d c b2 a2}
 sopWords = \lyricmode {
 }
 
 altoMusic = \relative c' { 
 
-e4 e a8 (gis) a4 a4 a a gis
+e4 e a8 (gis) a4 a4 a4 gis8 (a) b (gis)
 a }
 
 altoWords = \lyricmode {
