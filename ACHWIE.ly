@@ -6,32 +6,37 @@
 }
 
 global = {
-  \key d \minor
+  \key a \minor
   \time 4/4
+  \tempo 4 = 81
+
 }
 
-sopMusic = \relative c' {
-d e f f f g a a
-bes a g f e2 d2}
+sopMusic = \relative c'' {
+a b c8 (b) c4 c d e e
+f e d c b2 a2}
 sopWords = \lyricmode {
-Ach wie flüch-tig, ach wie nich -- tich}
+}
 
-altoMusic = \relative c' {
-d4 cis d d d bes a a
-g a bes d a2 d }
+altoMusic = \relative c'' { 
+
+a4 e a8 (gis) a4 a4 a e e
+d e f a e2 a}
 
 altoWords = \lyricmode {
+Ach wie flüch -- tig, ach wie nich -- tig
+ist des Men -- schen Le -- ben.
 }
 
-tenorMusic = \relative c {
-d4 e f f f g a a
-bes a g f e2 d2}
+tenorMusic = \relative c'' {
+a,4 e' e4 e8 (dis) e4 d e e
+f e d c b2 a}
 tenorWords = \lyricmode {
 }
 
-bassMusic = \relative c {
-d4 cis d d d bes a a
-g a bes d a2 d
+bassMusic = \relative c' {
+a4 gis a a a8 (g) f4 e e
+d e f a e2 a
 }
 bassWords = \lyricmode {
 }
