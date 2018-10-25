@@ -13,15 +13,15 @@ global = {
 }
 
 sopMusic = \relative c'' {
-a b c8 (b) c4 c d e e
+a4 b c4 c c c8(dis) e4 e
 f e d c b2 a2}
 sopWords = \lyricmode {
 }
 
-altoMusic = \relative c'' { 
+altoMusic = \relative c' { 
 
-a4 e a8 (gis) a4 a4 a e e
-d e f a e2 a}
+e4 e a8 (gis) a4 a4 a a gis
+a }
 
 altoWords = \lyricmode {
 Ach wie flüch -- tig, ach wie nich -- tig
@@ -29,14 +29,14 @@ ist des Men -- schen Le -- ben.
 }
 
 tenorMusic = \relative c'' {
-a,4 e' e4 e8 (dis) e4 d e e
-f e d c b2 a}
+c,4 b e4 e8 (dis) e4 d c b
+}
 tenorWords = \lyricmode {
 }
 
 bassMusic = \relative c' {
 a4 gis a a a8 (g) f4 e e
-d e f a e2 a
+d e f8 (g) a4 e2 a,
 }
 bassWords = \lyricmode {
 }
