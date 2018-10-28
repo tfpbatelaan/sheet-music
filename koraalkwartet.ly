@@ -6,7 +6,7 @@ global= {
 #(set-global-staff-size 15.0)
 
 \header {
-  title = "Ach wie flüchtig, ach wie nichtig"
+  title =  "ACH WIE FLÜCHTIG, ACH WIE NICHTIG"
   composer = "Thomas F. P. Batelaan"
   poet = "Johann Sebastian Bach"
 }
