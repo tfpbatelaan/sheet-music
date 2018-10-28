@@ -22,18 +22,16 @@ f e d c b2 a2
 
 }
 
-violinTwo = \new Voice \relative c' {
+violinTwo = \new Voice \relative c'' {
   \set Staff.instrumentName = #"Violin 2 "
+a1
 
-e2\glissando\ppp a8 gis a4~a2 gis8 (a b\fermata gis)
-a
 
 }
 
 viola = \new Voice \relative c' {
   \set Staff.instrumentName = #"Viola "
   \clef "G_8"
-c4.\ppp (d8 e4. dis8) e4. (d8 c4. b8\fermata)
 
 
 
@@ -43,8 +41,8 @@ cello = \new Voice \relative c' {
   \set Staff.instrumentName = #"Cello "
   \clef "bass"
 
-a1 a8 (g) f4 e e\fermata
-d e f8 (g) a4 e2 a,
+a2 f d e2\fermata
+d4 e f8 (g) a4 e2 a,
 
 }
 
