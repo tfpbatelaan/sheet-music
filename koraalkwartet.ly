@@ -33,7 +33,7 @@ a
 viola = \new Voice \relative c' {
   \set Staff.instrumentName = #"Viola "
   \clef "G_8"
-c4\ppp (d e4. dis8) e4. (d8 c4. b8\fermata)
+c4.\ppp (d8 e4. dis8) e4. (d8 c4. b8\fermata)
 
 
 
