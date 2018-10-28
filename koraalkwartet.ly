@@ -32,7 +32,7 @@ a1\ppp a4 (b c b)
 viola = \new Voice \relative c' {
   \set Staff.instrumentName = #"Viola "
   \clef "G_8"
-r2 a4\ppp (b c2.) b4\fermata
+a2.\ppp (b4 c2.) b4\fermata
 
 
 }
@@ -41,8 +41,8 @@ cello = \new Voice \relative c' {
   \set Staff.instrumentName = #"Cello "
   \clef "bass"
 
-a2\ppp f~f e2\fermata
-d4 e f8 (g) a4 e2 a,
+a2\ppp f c'4 b a2\fermata
+d,4 e f8 (g) a4 e2 a,
 
 }
 
