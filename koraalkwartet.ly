@@ -24,7 +24,7 @@ f e d c b2 a2
 
 violinTwo = \new Voice \relative c'' {
   \set Staff.instrumentName = #"Violin 2 "
-a1
+a1\ppp a4 (b c b)
 
 
 }
@@ -32,7 +32,7 @@ a1
 viola = \new Voice \relative c' {
   \set Staff.instrumentName = #"Viola "
   \clef "G_8"
-
+r2 a4\ppp (b c2.) b4
 
 
 }
@@ -41,24 +41,20 @@ cello = \new Voice \relative c' {
   \set Staff.instrumentName = #"Cello "
   \clef "bass"
 
-a2 f d e2\fermata
+a2 f f e2\fermata
 d4 e f8 (g) a4 e2 a,
 
 }
 
 \score {
   \new StaffGroup <<
-    \new Staff << \global \violinOne >>
-        \set Staff.midiInstrument = #"violin"
+    \new Staff \with {midiInstrument = #"string ensemble 1"} << \global \violinOne >>
 
-    \new Staff << \global \violinTwo >>
-            \set Staff.midiInstrument = #"violin"
+    \new Staff  \with {midiInstrument = #"string ensemble 1"} << \global \violinTwo >>
 
-    \new Staff << \global \viola >>
-            \set Staff.midiInstrument = #"viola"
+    \new Staff  \with {midiInstrument = #"string ensemble 1"} << \global \viola >>
 
-    \new Staff << \global \cello >>
-            \set Staff.midiInstrument = #"cello"
+    \new Staff \with {midiInstrument = #"string ensemble 1"} << \global \cello >>
 
   >>
   \layout { }
