@@ -1,28 +1,26 @@
 global = {
-  \key c \minor
+  \key c \major
   \time 4/4
   \dynamicUp
 }
-\tempo 4 = 120
 sopranonotes = \relative c'' {
-  c2 (g'4) g f g8 (as) g4 r8 g8 f4 es8 d es4 f g2 g
-    c,2 (g'4) g f as8 (c) g4 r8 g8 f4 c8 d es4 d c2}
-sopranowords = \lyricmode 
-{ Shir ha -- ma -- 'a -- lot. Be -- shuv A -- do -- nai }
+  c2 \p \< d c d \f
+}
+sopranowords = \lyricmode { do do do do }
 altonotes = \relative c'' {
-  c2 (g'4) g f g8 (as) g4 r8 g8 f4 es8 d es4 f g2 g
-    c,2 (g'4) g f as8 (c) g4 r8 g8 f4 c8 d es4 d c2}
-altowords = sopranowords
+  c2\p d c d
+}
+altowords = \lyricmode { re re re re }
 tenornotes = {
   \clef "G_8"
-  c2 (g'4) g f g8 (as) g4 r8 g8 f4 es8 d es4 f g2 g
-    c,2 (g'4) g f as8 (c) g4 r8 g8 f4 c8 d es4 d c2}
-tenorwords = sopranowords
+  c2\mp d c d
+}
+tenorwords = \lyricmode { mi mi mi mi }
 bassnotes = {
   \clef bass
-  c2 (g'4) g f g8 (as) g4 r8 g8 f4 es8 d es4 f g2 g
-    c,2 (g'4) g f as8 (c) g4 r8 g8 f4 c8 d es4 d c2}
-basswords = sopranowords
+  c2\mf d c d
+}
+basswords = \lyricmode { mi mi mi mi }
 
 \score {
   \new ChoirStaff <<
