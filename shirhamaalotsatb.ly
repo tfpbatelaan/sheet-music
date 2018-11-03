@@ -7,7 +7,8 @@ global = {
 sopranonotes = \relative c'' {
   c2 (g'4) g f g8 (as) g4 r8 g8 f4 es8 d es4 f g2 g
     c,2 (g'4) g f as8 (c) g4 r8 g8 f4 c8 d es4 d c2}
-sopranowords = \lyricmode { Shir ha -- ma -- 'a -- lot. Be -- shuv A -- do -- nai }
+sopranowords = \lyricmode 
+{ Shir ha -- ma -- 'a -- lot. Be -- shuv A -- do -- nai }
 altonotes = \relative c'' {
   c2 (g'4) g f g8 (as) g4 r8 g8 f4 es8 d es4 f g2 g
     c,2 (g'4) g f as8 (c) g4 r8 g8 f4 c8 d es4 d c2}
