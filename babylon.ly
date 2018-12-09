@@ -4,32 +4,30 @@
 }
 
 global = {
-  \key c \major
+  \key d \minor
   \time 4/4
   \dynamicUp
   \tempo 4 = 120
 }
 sopranonotes = \relative c'' {
-r1 r1 d2 f4 g a2 d,4 d c d e2 f d
+a4 g f e d2 cis d
 }
 sopranowords = \lyricmode { 
 Droef za -- ten wij aan Ba -- by -- lons Ri -- vie -- ren
 }
-altonotes = \relative c' {
-r1 r2 d2 f4 g a4 a a g a b c2 a ~
+altonotes = \relative c'' {
 }
 altowords = \lyricmode { 
 Droef za -- ten wij aan Ba -- by -- lons Ri -- vie -- ren
  }
 tenornotes = \relative c { 
   \clef "G_8" 
-d2 f4 g a1 a a g a b c2 a d1
 }
 tenorwords = \lyricmode { 
 Droef za -- ten wij aan Ba -- by -- lons Ri -- vie -- ren }
-bassnotes = {
+bassnotes = \relative c {
   \clef bass 
-r1 d2 f4 g a1 d e2 f d4 c d e f2 d
+d1 f2 g a a a g a b c a r
 }
 basswords = \lyricmode { }
 
