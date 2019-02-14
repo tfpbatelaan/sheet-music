@@ -10,13 +10,13 @@ global = {
   \dynamicUp
 }
 sopranonotes = \relative c' {
-r1 r1 r1 r1 r1 r1 f2 e c
+r1 r1 r1 r1 r1 r1 f'2 e2 c1
 }
 sopranowords = \lyricmode { 
 
 }
 altonotes = \relative c' {
-r1 r1 r1 r1 r1 r1 bes4 a gis2 a1
+r1 r1 r1 r1 r1 r1 bes'4 a gis2 e1
   }
 
 altowords = \lyricmode { }
@@ -30,7 +30,7 @@ Et shi -- vat Tzi -- yon ha -- yi -- nu k' -- chol' -- mim}
 bassnotes = \relative c{
   \clef bass
 r1 r1 r1 r1 
-a1 d2 a d e a1
+a1 d2 a d e a,1
 }
 basswords = \lyricmode { }
 
