@@ -32,7 +32,7 @@ Et shi -- vat Tzi -- yon ha -- yi -- nu k' -- chol' -- mim }
 bassnotes = \relative c{
   \clef bass
   d2. d4 e8 (f) g4 a,4. a8 g2 (g'4) g4 a2 a,2
-  d2 d4 d d4 g8
+  d2 f4 f c2 f
 
 }
 basswords = \lyricmode { Shir ha -- ma -- a' -- lot, b' -- shuv A -- do -- nai
