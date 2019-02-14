@@ -18,20 +18,23 @@ Shir ha -- ma -- a' -- lot, b' -- shuv A -- do -- nai
 Et shi -- vat Tzi -- yon ha -- yi -- nu k' -- chol' -- mim
 }
 altonotes = \relative c' {
-  d4 (e) f2 g4 g4 a8 (b cis) cis,8 d4 (d8 cis d4) g cis,8 (d4.) e2
-d,2 a'4 a g (bes8 d) a4. g8 g4 d8 e f4 (e) d1}
+  d4. (e8) f2 g4 g4 a8 (b cis) cis,8 d4 (d8 cis d4) d cis8 (d4.) e2
+  }
+
 altowords = \lyricmode { Shir ha -- ma -- a' -- lot, b' -- shuv A -- do -- nai
 Et shi -- vat Tzi -- yon ha -- yi -- nu k' -- chol' -- mim }
 tenornotes = \relative c {
   \clef "G_8"
-  f2 (f8 e) d4 bes' c8 (d) e4. e8 g4 (f8 e f4) g e4. (d8) cis2
-d,2 a'4 a g (bes8 d) a4. g8 g4 d8 e f4 (e) d1}
+  f2 (f8 e) d4 bes' c8 (d) e4. e8 bes2. bes4 e4. (d8) cis2
+}
 tenorwords = \lyricmode {Shir ha -- ma -- a' -- lot, b' -- shuv A -- do -- nai
 Et shi -- vat Tzi -- yon ha -- yi -- nu k' -- chol' -- mim }
 bassnotes = \relative c{
   \clef bass
-  d2. d4 e8 (f) g4 a,4. a8 g2 (g'4) g4 a2 a2
-d,2 a'4 a g (bes8 d) a4. g8 g4 d8 e f4 (e) d1}
+  d2. d4 e8 (f) g4 a,4. a8 g2 (g'4) g4 a2 a,2
+  d2 d4 d d4 g8
+
+}
 basswords = \lyricmode { Shir ha -- ma -- a' -- lot, b' -- shuv A -- do -- nai
 Et shi -- vat Tzi -- yon ha -- yi -- nu k' -- chol' -- mim }
 
