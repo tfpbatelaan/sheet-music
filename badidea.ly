@@ -25,6 +25,9 @@ tenorwords = \lyricmode {}
 bassnotes = \relative c{
   \clef bass
 dis8 dis r4 r2 b8 b r4 cis8 cis r4 
+dis8 dis r4 r2 b8 b r4 cis8 cis r4 
+dis8 dis r4 r2 b8 b r4 cis8 cis r4 
+
 
 }
 basswords = \lyricmode { }
