@@ -14,8 +14,8 @@ sopranonotes = \relative c' {
 sopranowords = \lyricmode { 
 
 }
-altonotes = \relative c' {
-  }
+altonotes = \relative c'' {
+r4 ais8 ais fis fis gis gis gis gis   }
 
 altowords = \lyricmode { }
 tenornotes = \relative c' {
